@@ -7,7 +7,7 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/username/smoko_telegram_bot.git
+    git clone https://github.com/dasiqe/smoko_telegram_bot.git
     ```
 
 2. Перейдите в директорию проекта:
