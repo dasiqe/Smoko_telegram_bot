@@ -17,10 +17,8 @@ def init_db():
     cursor.execute('CREATE TABLE IF NOT EXISTS users (user_id INTEGER, history TEXT DEFAULT NULL, first_client INTEGER DEFAULT 1, first_pressed INTEGER DEFAULT 0, spend INTEGER DEFAULT 0, start INTEGER DEFAULT NULL, product TEXT DEFAULT NULL, ban INTEGER DEFAULT 0)')
     db.commit()
 
-# Вызываем инициализацию при импорте этого модуля
 init_db()
 
-# db.py (дополнительно)
 def get_table_name(code: str) -> str:
     return '_'.join(code.split('_')[:-1])
 
