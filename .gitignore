@@ -1,0 +1,8 @@
+# .gitignore
+
+.env
+
+# Базы данных
+*.db
+__pycache__/
+*.pyc
